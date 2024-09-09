@@ -1,0 +1,138 @@
+/* Encabezado */
+.header {
+    background-color: #2C3E50;  /* Azul oscuro */
+    color: #ECF0F1;  /* Blanco claro */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Fascinate Inline', sans-serif;
+    color: #E74C3C;  /* Rojo brillante */
+}
+
+/* Formulario de búsqueda */
+.search-form {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #ECF0F1;  /* Fondo blanco claro */
+    border: 1px solid #BDC3C7;  /* Gris claro */
+}
+
+/* Botones */
+.btn {
+    padding: 10px 15px;
+    background-color: #2980B9;  /* Azul brillante */
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #1A5276;  /* Azul más oscuro */
+}
+
+.btn-add {
+    background-color: #27AE60;  /* Verde */
+}
+
+.btn-generate {
+    background-color: #16A085;  /* Verde azulado */
+}
+
+.btn-simulate {
+    background-color: #F39C12;  /* Naranja */
+}
+
+.btn-export {
+    background-color: #3498DB;  /* Azul celeste */
+}
+
+.btn-delete {
+    background-color: #C0392B;  /* Rojo fuerte */
+}
+
+.btn-sm {
+    padding: 5px 10px;
+}
+
+/* Tabla */
+.competitors-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #BDC3C7;  /* Gris claro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th a {
+    color: #2C3E50;  /* Azul oscuro */
+    text-decoration: none;
+}
+
+th a:hover {
+    text-decoration: underline;
+}
+
+/* Colores de medallas */
+.gold-medal {
+    background-color: #F1C40F;  /* Dorado */
+}
+
+.silver-medal {
+    background-color: #BDC3C7;  /* Plateado */
+}
+
+.bronze-medal {
+    background-color: #D35400;  /* Bronce */
+}
+
+/* Footer */
+.footer {
+    background-color: #2C3E50;  /* Azul oscuro */
+    color: #ECF0F1;  /* Blanco claro */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
